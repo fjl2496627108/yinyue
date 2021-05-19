@@ -7,3 +7,10 @@ var pjax = new Pjax({
   ],
   cacheBust: false
 })
+document.addEventListener('pjax:send', function (){
+    NProgress.start();
+});
+ 
+document.addEventListener('pjax:complete', function (){
+    NProgress.done(); ;
+});
