@@ -4,6 +4,7 @@ var pjax = new Pjax({
     "body",
 "head",
 "footer",
+"link",
 
   ],
   cacheBust: false
