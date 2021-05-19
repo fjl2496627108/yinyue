@@ -3,6 +3,7 @@ var pjax = new Pjax({
   selectors: [
 "form",
 "header",
+"meta",
 
   ],
   cacheBust: false
