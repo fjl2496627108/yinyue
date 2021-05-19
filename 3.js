@@ -3,9 +3,6 @@ var pjax = new Pjax({
   selectors: [
     "body",
 "head",
-"footer",
-"link",
-
   ],
   cacheBust: false
 })
